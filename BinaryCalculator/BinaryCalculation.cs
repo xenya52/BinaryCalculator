@@ -9,7 +9,6 @@ public class BinaryCalculation
     {
     x = UserNumber
         public string[] UserNumberInputToArray = UserNumberInput.Select(x => x.ToString()).ToArray();
-        for (int i =)
     }
     
 }

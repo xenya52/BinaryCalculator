@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucy/Workspace/Software/CSharp AdvancedDiscordBotPuddles/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
+      "projectUniqueName": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
       "projectName": "BinaryCalculator",
-      "projectPath": "/home/lucy/Workspace/Software/CSharp AdvancedDiscordBotPuddles/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
+      "projectPath": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
       "packagesPath": "/home/lucy/.nuget/packages/",
-      "outputPath": "/home/lucy/Workspace/Software/CSharp AdvancedDiscordBotPuddles/BinaryCalculator/BinaryCalculator/obj/",
+      "outputPath": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lucy/.nuget/NuGet/NuGet.Config"
