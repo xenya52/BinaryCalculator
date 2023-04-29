@@ -1,0 +1,12 @@
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/BinaryCalculator.deps.json
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/BinaryCalculator.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/ref/BinaryCalculator.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/BinaryCalculator.pdb
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.csproj.AssemblyReference.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.AssemblyInfoInputs.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.AssemblyInfo.cs
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.csproj.CoreCompileInputs.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/ref/BinaryCalculator.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.pdb

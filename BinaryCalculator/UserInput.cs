@@ -2,7 +2,7 @@ namespace BinaryCalculator;
 
 public class UserInput
 {
-    public int userBinaryInput { get; set; } = 0;
+    public string userBinaryInput { get; set; } = String.Empty;
     public int solutionOutput { get; set; } = 0;
 
 }

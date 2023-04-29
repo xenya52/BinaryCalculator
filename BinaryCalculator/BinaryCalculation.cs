@@ -1,14 +1,19 @@
 namespace BinaryCalculator;
 
-public class BinaryCalculation
+public class BinaryCalculation : UserInput
 {
-    public string UserNumberInput { get; set; }
-    private bool Check = false;
 
-    public void CalculationMethod(string x)
+    public void CalculationMethod()
     {
-    x = UserNumber
-        public string[] UserNumberInputToArray = UserNumberInput.Select(x => x.ToString()).ToArray();
+        char[] CharArray = userBinaryInput.ToString().ToCharArray();
+        int count = 0;
+        for (int i = 0; i < userBinaryInput.Length; i++)
+        {
+            if ((userBinaryInput[i] >= '0') && (userBinaryInput[i] <= '9'))
+            {
+                count++;
+            }
+        }
     }
     
 }
