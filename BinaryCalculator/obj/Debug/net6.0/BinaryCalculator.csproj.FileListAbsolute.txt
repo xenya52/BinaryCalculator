@@ -10,3 +10,6 @@
 /home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.dll
 /home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/ref/BinaryCalculator.dll
 /home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.pdb
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/BinaryCalculator
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/bin/Debug/net6.0/BinaryCalculator.runtimeconfig.json
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/Debug/net6.0/BinaryCalculator.genruntimeconfig.cache

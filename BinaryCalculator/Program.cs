@@ -4,10 +4,13 @@ namespace BinaryCalculator;
 
 class Program
 {
-    static public void main(string[] args)
+    public static void Main(string[] args)
     {
         BinaryCalculation test1 = new();
-        test1.CalculationMethod();
+        Console.WriteLine("Write");
+        string userBinaryInput = Convert.ToString(Console.ReadLine());
+        test1.CalculationMethod(userBinaryInput); 
+        Console.WriteLine(test1.solutionOutput);
         Console.ReadKey();
     }
 }

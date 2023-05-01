@@ -1,0 +1,15 @@
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ConsoleApp1
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ConsoleApp1.deps.json
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ConsoleApp1.runtimeconfig.json
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ConsoleApp1.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ref/ConsoleApp1.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/bin/Debug/net6.0/ConsoleApp1.pdb
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.csproj.AssemblyReference.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.AssemblyInfoInputs.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.AssemblyInfo.cs
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ref/ConsoleApp1.dll
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.pdb
+/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.genruntimeconfig.cache
