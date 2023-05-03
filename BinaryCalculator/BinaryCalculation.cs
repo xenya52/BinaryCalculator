@@ -7,26 +7,19 @@ public class BinaryCalculation : UserInput
     //Calculation method from binary to normal number
     public void CalculationMethod(string userBinaryInput)
     {
-        char[] CharArray = userBinaryInput.ToString().ToCharArray();
-        int count = 0;
-
-        CharArray.Reverse();
-
-        for (int i = 0; i < userBinaryInput.Length; i++)
-        {
-            if ((userBinaryInput[i] >= '0') && (userBinaryInput[i] <= '9'))
-            {
-                count = count * 2;
-            }
-        }
+        
+        char[] charArray = userBinaryInput.ToString().ToCharArray();
+        int count = 1;
+        int[] SolutionArray = new int[userBinaryInput.Length];
+        
+        Array.Reverse(charArray);
 
         for (int i = 0; i < userBinaryInput.Length; i++)
         {
-            if (CharArray[i] == '1')
-            {
-                solutionOutput = solutionOutput + CharArray[i];
-            }
-
+            count = count * 2; 
+            SolutionArray = charArray.Select(_chararray => _chararray - '0').ToArray();                    
+            solutionOutput += charArray[i];
         }
+
     }
 }
