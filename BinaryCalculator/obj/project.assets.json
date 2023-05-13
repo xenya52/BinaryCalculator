@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/lucy/.nuget/packages/": {}
+    "C:\\Users\\Xenmi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
       "projectName": "BinaryCalculator",
-      "projectPath": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
-      "packagesPath": "/home/lucy/.nuget/packages/",
-      "outputPath": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/obj/",
+      "projectPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
+      "packagesPath": "C:\\Users\\Xenmi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lucy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Xenmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

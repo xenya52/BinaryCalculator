@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bE8y5IvaWEPq/glTkJrzE/F06N/609J5lG+n/HN5J5zETiB08ULt8j/hRtDmtu13OX8YFUDYBn7QL8d2+zX+Qw==",
+  "dgSpecHash": "6SVOkCnoPLi2PRe6epNgduE97LRENPthrkYRBal4VGOYdw+sx/hK1M83ZcHlVbLXpYOPkIvVPdavdimVsPbTTA==",
   "success": true,
-  "projectFilePath": "/home/lucy/Workspace/Software/CSharpBinaryCalculator/BinaryCalculator/BinaryCalculator/BinaryCalculator.csproj",
+  "projectFilePath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

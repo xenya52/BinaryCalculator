@@ -1,3 +1,5 @@
+using System.Diagnostics.Metrics;
+
 namespace BinaryCalculator;
  
 /*
@@ -7,24 +9,29 @@ namespace BinaryCalculator;
 public class BinaryCalculation : UserInput
 {
     public int solutionOutput { get; set; } = 0;
-    
+
     //Calculation method from binary to normal number
     public void CalculationMethod(string userBinaryInput)
     {
-        
+
         char[] charArray = userBinaryInput.ToCharArray();
         Array.Reverse(charArray);
-        int count = 1;
+
+        int lineWorth = 1;
+
         int[] SolutionArray = new int[userBinaryInput.Length];
 
         for (int i = 0; i < userBinaryInput.Length; i++)
         {
-            count *= 2; 
-            SolutionArray = charArray.Select(_chararray => _chararray - '0').ToArray();
-            SolutionArray[i] += count; 
-            /*You need to make that it only reactes if you had a one, otherwise he will override zeros...*/
-            solutionOutput += SolutionArray[i];
+            SolutionArray[i] = charArray[i] - 48; //-48 wegen Ascii Tabelle
+            SolutionArray[i] *= lineWorth;
+            
+            lineWorth *= 2;
         }
 
+        for (int x = 0; x <SolutionArray.Length; x++)
+        {
+            solutionOutput += SolutionArray[x];
+        }
     }
 }
