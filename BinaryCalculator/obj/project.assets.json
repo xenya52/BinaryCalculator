@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharp\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
       "projectName": "BinaryCalculator",
-      "projectPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
+      "projectPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharp\\CSharpBinaryCalculator\\BinaryCalculator\\BinaryCalculator.csproj",
       "packagesPath": "C:\\Users\\Xenmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharpBinaryCalculator\\BinaryCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Xenmi\\Desktop\\Software\\CSharp\\CSharpBinaryCalculator\\BinaryCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xenmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

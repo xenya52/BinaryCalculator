@@ -6,12 +6,12 @@ namespace BinaryCalculator;
  * Example
  * (110100101)₂ = (1 × 2⁸) + (1 × 2⁷) + (0 × 2⁶) + (1 × 2⁵) + (0 × 2⁴) + (0 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰) = (421)₁₀
  */
-public class BinaryCalculation : UserInput
+public class BinaryConvertInDecimal
 {
     public int solutionOutput { get; set; } = 0;
 
     //Calculation method from binary to normal number
-    public void CalculationMethod(string userBinaryInput)
+    public void ConvertMethod(string userBinaryInput)
     {
 
         char[] charArray = userBinaryInput.ToCharArray();
