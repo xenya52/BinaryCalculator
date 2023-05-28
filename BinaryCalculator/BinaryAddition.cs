@@ -8,13 +8,17 @@ namespace BinaryCalculator
 {
     public class BinaryAddition
     {
-        public void BinaryAdditionMethod(string _userBinaryInput1, string _userBinaryInput2)
+        private List<string> BinaryAdditionValues = new List<string>();
+        
+        public void AddBinaryAdditionValues(string _userBinaryInput)
         {
+            BinaryAdditionValues.Add(_userBinaryInput);
+        }
 
-            char[] charArray1 = _userBinaryInput1.ToCharArray();
-            Array.Reverse(charArray1);
-            char[] charArray2 = _userBinaryInput2.ToCharArray();
-            Array.Reverse(charArray2);
+
+        public void BinaryAdditionMethod()
+        {
+                
 
             /*int lineWorth = 1; //!!!!!! */
 

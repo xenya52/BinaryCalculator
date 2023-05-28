@@ -37,13 +37,30 @@ class Program
             }
             else if (navigator == 2)
             {
-                Console.WriteLine("Write you first binary number");
-                int userBinaryInput1 = Convert.ToInt32(Console.ReadLine());
+                BinaryAddition Addition = new();
 
-                Console.WriteLine("Write you second binary number");
-                int userBinaryInput2 = Convert.ToInt32(Console.ReadLine());
-                
+                Console.WriteLine("Wanna add a binary number?");
+                Console.WriteLine("Than just write it :) ...");
+                Console.WriteLine("Wanna execute the calculation?");
+                Console.WriteLine("Oki than press [x] and enter");
+                Console.WriteLine("Just wanna leave?");
+                Console.WriteLine("Press [y] and enter");
+                string _navigator = Convert.ToString(Console.ReadLine());
+
                 Console.Clear();
+
+                if (_navigator == "x")
+                {
+
+                }
+                else if (_navigator == "y")
+                {
+                    return;
+                }
+                else 
+                {
+                    Addition.AddBinaryAdditionValues(_navigator);
+                }
             }
             else if (navigator == 3)
             {
