@@ -39,28 +39,12 @@ class Program
             {
                 BinaryAddition Addition = new();
 
-                Console.WriteLine("Wanna add a binary number?");
-                Console.WriteLine("Than just write it :) ...");
-                Console.WriteLine("Wanna execute the calculation?");
-                Console.WriteLine("Oki than press [x] and enter");
-                Console.WriteLine("Just wanna leave?");
-                Console.WriteLine("Press [y] and enter");
-                string _navigator = Convert.ToString(Console.ReadLine());
-
-                Console.Clear();
-
-                if (_navigator == "x")
-                {
-
-                }
-                else if (_navigator == "y")
-                {
-                    return;
-                }
-                else 
-                {
-                    Addition.AddBinaryAdditionValues(_navigator);
-                }
+               Console.WriteLine("Write you first number");
+               string firstNumber = Convert.ToString(Console.ReadLine());
+               Console.WriteLine("Write you second number");
+               string secondNumber = Convert.ToString(Console.ReadLine());
+               
+               Addition.BinaryAdditionMethod(firstNumber, secondNumber);
             }
             else if (navigator == 3)
             {
