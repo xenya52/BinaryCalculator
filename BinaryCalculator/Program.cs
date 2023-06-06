@@ -1,4 +1,5 @@
 using System;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace BinaryCalculator;
 
@@ -27,9 +28,7 @@ class Program
                 Console.WriteLine("Write");
                 string userBinaryInput = Convert.ToString(Console.ReadLine());
 
-                test1.ConvertMethod(userBinaryInput);
-
-                Console.WriteLine(test1.solutionOutput);
+                Console.WriteLine(test1.ConvertMethod(userBinaryInput));
                 Console.WriteLine("Press any button to continure");
                 Console.ReadKey();
 
@@ -39,33 +38,23 @@ class Program
             {
                 BinaryAddition Addition = new();
 
-                Console.WriteLine("Wanna add a binary number?");
-                Console.WriteLine("Than just write it :) ...");
-                Console.WriteLine("Wanna execute the calculation?");
-                Console.WriteLine("Oki than press [x] and enter");
-                Console.WriteLine("Just wanna leave?");
-                Console.WriteLine("Press [y] and enter");
-                string _navigator = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Pls add the first binary number");
+                string Binary1 = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Now enter the second binary number");
+                string Binary2 = Convert.ToString(Console.ReadLine());
+
+                Console.WriteLine(Addition.BinaryAdditionMethod(Binary1, Binary2));
+                Console.WriteLine("Press any button to continure");
+                Console.ReadKey();
 
                 Console.Clear();
-
-                if (_navigator == "x")
-                {
-
-                }
-                else if (_navigator == "y")
-                {
-                    return;
-                }
-                else 
-                {
-                    Addition.AddBinaryAdditionValues(_navigator);
-                }
             }
+
             else if (navigator == 3)
             {
                 check = false;
             }
+
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;

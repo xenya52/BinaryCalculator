@@ -11,7 +11,7 @@ public class BinaryConvertInDecimal
     public int solutionOutput { get; set; } = 0;
 
     //Calculation method from binary to normal number
-    public void ConvertMethod(string userBinaryInput)
+    public int ConvertMethod(string userBinaryInput)
     {
 
         char[] charArray = userBinaryInput.ToCharArray();
@@ -33,5 +33,6 @@ public class BinaryConvertInDecimal
         {
             solutionOutput += SolutionArray[x];
         }
+        return solutionOutput;
     }
 }

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,24 +11,36 @@ namespace BinaryCalculator
 {
     public class BinaryAddition
     {
-        private List<string> BinaryAdditionValues = new List<string>();
-        
-        public void AddBinaryAdditionValues(string _userBinaryInput)
+       public int BinaryAdditionMethod(string Binary1, string Binary2)
         {
-            BinaryAdditionValues.Add(_userBinaryInput);
-        }
+            char[] charArray1 = Binary1.ToCharArray();
+            Array.Reverse(charArray1);
+            char[] charArray2 = Binary2.ToCharArray();
+            Array.Reverse(charArray2);
+
+            int lineWorth = 1; //Gilt für beide
+
+            int arrayLength = charArray1.Length > charArray2.Length ? charArray1.Length : charArray2.Length;
 
 
-        public void BinaryAdditionMethod()
-        {
-                
+            int[] SolutionArray1 = new int[arrayLength];
+            int[] SolutionArray2 = new int[arrayLength];
 
-            /*int lineWorth = 1; //!!!!!! */
+            int solutionOutput = 0;
 
-            int übertrag = 0;
+            for (int i = 0; i < arrayLength; i++)
+            {
+                SolutionArray1[i] = i < charArray1.Length ? (charArray1[i] - 48) * lineWorth : 0; //-48 wegen Ascii Tabelle
+                SolutionArray2[i] = i < charArray2.Length ? (charArray2[i] - 48) * lineWorth : 0; //-48 wegen Ascii Tabelle
 
-            /*int[] SolutionArray = new int[userBinaryInput.Length]; //?????? */
+                lineWorth *= 2;
+            }
 
+            for (int x = 0; x < arrayLength; x++)
+            {
+                solutionOutput += SolutionArray1[x] + SolutionArray2[x];
+            }
+            return solutionOutput;
         }
     }
 }
