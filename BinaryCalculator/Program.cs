@@ -17,6 +17,8 @@ class Program
             Console.WriteLine("Convert a binary into a decimal? [1]");
             Console.WriteLine("Make a binary addition? [2]");
             Console.WriteLine("Leave the program? [3]");
+            Console.WriteLine("Suptract [4]");
+            Console.WriteLine("Multiply [5]");
             navigator = Convert.ToInt32(Console.ReadLine());
             
             Console.Clear();
@@ -53,6 +55,37 @@ class Program
             else if (navigator == 3)
             {
                 check = false;
+            }
+
+            else if (navigator == 4)
+            {
+                BinarySuptraction Suptraction = new();
+
+                Console.WriteLine("Pls add the first binary number");
+                string Binary1 = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Now enter the second binary number");
+                string Binary2 = Convert.ToString(Console.ReadLine());
+
+                Console.WriteLine(Suptraction.BinarySuptractionMethod(Binary1, Binary2));
+                Console.WriteLine("Press any button to continure");
+                Console.ReadKey();
+
+                Console.Clear();
+            }
+            else if (navigator == 5)
+            {
+                BinaryMultiplication Multiplication = new();
+
+                Console.WriteLine("Pls add the first binary number");
+                string Binary1 = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Now enter the second binary number");
+                string Binary2 = Convert.ToString(Console.ReadLine());
+
+                Console.WriteLine(Multiplication.BinaryMultiplicationMethod(Binary1, Binary2));
+                Console.WriteLine("Press any button to continure");
+                Console.ReadKey();
+
+                Console.Clear();
             }
 
             else
