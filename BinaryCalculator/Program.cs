@@ -74,7 +74,7 @@ class Program
             }
             else if (navigator == 5)
             {
-                BinaryMultiplication Multiplication = new();
+                BinaryMultiplicationLaura Multiplication = new();
 
                 Console.WriteLine("Pls add the first binary number");
                 string Binary1 = Convert.ToString(Console.ReadLine());

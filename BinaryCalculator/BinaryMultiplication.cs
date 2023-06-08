@@ -23,7 +23,10 @@ namespace BinaryCalculator
             int[] SolutionArray1 = new int[arrayLength];
             int[] SolutionArray2 = new int[arrayLength];
 
-            int solutionOutput = 0;
+            int solutionOutput1 = 0;
+            int solutionOutput2 = 0;
+            int solution = 0;
+
 
             for (int i = 0; i < arrayLength; i++)
             {
@@ -35,9 +38,12 @@ namespace BinaryCalculator
 
             for (int x = 0; x < arrayLength; x++)
             {
-                solutionOutput = SolutionArray1[x] * SolutionArray2[x];
+                solutionOutput1 += SolutionArray1[x];
+                solutionOutput2 += SolutionArray2[x];
+                solution = solutionOutput1 * solutionOutput2;
+
             }
-            return solutionOutput;
+            return solution;
         }
     }
 }
